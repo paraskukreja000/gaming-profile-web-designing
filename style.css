@@ -1,0 +1,337 @@
+/*HOME PAGE*/
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,600&display=swap");
+#home_bg {
+  width: 98.9vw;
+}
+
+.slider{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: auto;
+  font-family: "Andada Pro", serif;
+  background-image: url("images/bg 2.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  padding-top: 1px;
+}
+
+
+/* ------------------------Outfits---------------------- */
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 285px;
+  float: left;
+  font-size: 130%;
+  margin: 0px 48px;
+  margin-top: 40px;
+  transition: 0.5s;
+}
+
+.box:hover img {
+  height: 250px;
+  width: 180px;
+}
+
+.outfits img {
+  width: 200px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.box p {
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.box:hover p {
+  opacity: 1;
+}
+
+/* <-----------------------Footer----------------------> */
+.footer{
+	background-color: #757f9a;
+	height: 25px;
+  margin-top: -4px;
+  padding: 0px;
+	text-align: center;
+}
+
+/* Submenu Styling */
+ul li ul li a {
+  background-color: #757f9a;
+  overflow:visible;
+  border: 0.5px solid white;
+  width: 100%;
+}
+
+.sub {
+  position: absolute;
+  left: 9.4%;
+  top: 7.5%;
+  z-index: 2;
+  display: none;
+  width: 180px;
+  text-align: center;
+}
+
+.inventory {
+  left: 16%;
+}
+
+.ach{
+  left: 44.7%;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+#topnav {
+  background: linear-gradient(
+    to right,
+    #536976,
+    #292e49); 
+  overflow: hidden;
+  margin-top: -17px;
+  margin-left: -10px;
+  padding: 0px;
+  border-bottom:1px solid #d7dde8;
+
+}
+
+/* Style the links inside the navigation bar */
+#logo {
+  float: left;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+#topnav a {
+  float: left;
+  text-transform: uppercase;
+  color: floralwhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  overflow: hidden;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+  background: linear-gradient(to right,#757f9a, #d7dde8);
+  color: white;
+}
+#topnav a:active {
+  opacity: 0.8;
+}
+
+/* Add a color to the active/current link */
+
+
+/* <--------------GUNS PAGE CSS HERE---------------> */
+.gun_skins {
+  background-image: url("images/bg 2.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  padding-top: 1px;
+}
+
+.gun_skins img {
+  width: 260px;
+  margin: 10px 20px;
+}
+.gun_skins p {
+  padding-left: 20px;
+  font-size: 1.2rem;
+  background: linear-gradient(to right,#757f9a, #d7dde8);
+  text-transform: uppercase;
+  border: 1px solid white;
+}
+
+
+/* ---------------------Masks----------------------- */
+.masks{
+  margin: 20px 40px;
+}
+.mask{
+  float: left;
+  margin: 20px 26px;
+  background: linear-gradient(to right,#757f9a, #d7dde8);
+}
+.mask img{
+  width: 150px;
+  height: 180px;
+}
+.mask p{
+  text-align: center;
+  margin: 10px;
+  color: black;
+}
+
+
+
+/* <--------------------Helmets---------------------> */
+.helmets {
+	margin: 30px 90px;
+}
+
+.helmet {
+	border: 1px solid black;
+	border-radius: 5px;
+	float: left;
+	margin: 10px 65px;
+	font-size: 25px;
+	background-color: #757f9a;
+	color: whitesmoke;
+}
+
+.helmet img {
+	width: 300px;
+  height: 300px;
+}
+
+.helmet p {
+  margin: 15px;
+	text-align: center;
+}
+
+
+/* -----------------------Name Tags------------------- */
+.name_tags{
+  margin: 70px 120px;
+}
+.name_tag{
+  float: left;
+  margin: auto 50px;
+  border: 1px solid black;
+  background: linear-gradient(to right,#757f9a, #d7dde8);
+}
+.name_tag img{
+  width: 300px;
+}
+.name_tag p{
+  text-align: center;
+  color: black;
+}
+
+
+/* --------------------About Me---------------------- */
+.data{
+  border-top: 1px solid orange;
+  width: 100vw;
+  height: 92vh;
+  margin: auto;
+  color: white;
+  background-image: url("./images/about.jpg");
+  background-color: black;
+  font-size: 20px;
+  transition: 5s;
+}
+
+.data .info{
+  position: relative;
+  top: 10%;
+  left: 8%;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 20vw;
+  padding-left: 30px;
+}
+
+
+
+/* -------------------Avatar Frame------------------------- */
+.frames{
+  margin: 20px 20px;
+}
+.frame{
+  float: left;
+  margin: 20px 30px;
+  /* border: 1px solid rgb(124, 99, 99); */
+        background: linear-gradient(to right,#757f9a, #d7dde8);
+        height: 510px;
+}
+.frame img{
+  width: 300px;
+        height: 455px;
+}
+.frame p{
+  /* width: 300px; */
+        color: black;
+  text-align: center;
+        margin: 10px;
+        font-size: 130%;
+}
+
+
+/* -----------------------Glasses--------------------------- */
+.glasses{
+  margin: 20px 90px;
+}
+.glass{
+  float: left;
+  margin: 20px 50px;
+  border: 1px solid black;
+}
+.glasses img{
+  width: 150px;
+  /* margin: 5px 80px; */
+}
+.glass p{
+  /* margin: auto 80px; */
+  width: 150px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+
+/* -------------------------Titles----------------------- */
+.titles{
+  margin: 70px 120px;
+}
+.title{
+  float: left;
+  margin: auto 150px;
+  border: 1px solid black;
+}
+.title img{
+  width: 300px;
+}
+.title p{
+  /* width: 300px; */
+  text-align: center;
+}
+
+
+/* --------------------------Vehicle--------------------------- */
+.vehicles img{
+  width: 400px;
+  margin: 5px 20px;
+  margin-bottom: 50px;
+}
+.vehicles p{
+  font-size: 20px;
+  margin-left: 10px;
+width: 97vw;
+padding: 5px3 0px 5px 10px;
+background: linear-gradient(to right,#757f9a, #d7dde8);
+}
